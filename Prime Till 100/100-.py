@@ -6,7 +6,7 @@ def SieveofEratosthenes(num):
             for i in range(p * p, num + 1, p):
                 prime[i] = False
         p += 1
-    for p in range(2, num):
+    for p in range(11, num):
         if prime[p]:
             print(p)
 
